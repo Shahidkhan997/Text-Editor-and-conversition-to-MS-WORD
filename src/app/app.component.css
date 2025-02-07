@@ -1,0 +1,49 @@
+.toolbar {
+    display: flex;
+    gap: 5px;
+    background: #eee;
+    padding: 8px;
+    border-radius: 5px;
+  
+    button {
+      padding: 5px;
+      border: none;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+  }
+  
+  .editor {
+    border: 1px solid #ccc;
+    min-height: 200px;
+    max-height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: #fff;
+    overflow: auto; /* Enable scrolling */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    transition: border 0.2s ease-in-out;
+  
+    &:focus {
+      border: 2px solid #007bff; /* Blue border when focused */
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional glow effect */
+    }
+  
+    /* Custom thin scrollbar for WebKit browsers (Chrome, Edge, Safari) */
+    &::-webkit-scrollbar {
+      width: 6px; /* Thin scrollbar */
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.3); /* Slightly visible scrollbar */
+      border-radius: 10px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  }
+  
+  

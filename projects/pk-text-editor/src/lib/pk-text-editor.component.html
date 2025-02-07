@@ -1,0 +1,14 @@
+<div class="toolbar">
+    <button (click)="execCommand('bold')"><b>B</b></button>
+    <button (click)="execCommand('italic')"><i>I</i></button>
+    <button (click)="execCommand('underline')"><u>U</u></button>
+    <button (click)="execCommand('strikeThrough')"><s>S</s></button>
+    <button (click)="execCommand('insertOrderedList')">OL</button>
+    <button (click)="execCommand('insertUnorderedList')">UL</button>
+    <button (click)="execCommand('createLink')">🔗</button>
+    <button (click)="execCommand('insertImage')">🖼</button>
+    <button (click)="undo()">⏪ Undo</button>
+    <button (click)="redo()">⏩ Redo</button>
+  </div>
+  
+  <div class="editor" contenteditable="true" #editor></div>

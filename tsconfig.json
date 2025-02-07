@@ -14,6 +14,11 @@
     "declaration": false,
     "experimentalDecorators": true,
     "moduleResolution": "node",
+    "paths": {
+      "pk-text-editor": [
+        "./dist/pk-text-editor"
+      ]
+    },
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",

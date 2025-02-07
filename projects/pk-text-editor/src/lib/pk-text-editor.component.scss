@@ -1,0 +1,38 @@
+.toolbar {
+    display: flex;
+    gap: 50px;
+    background: #eee;
+    padding: 8px;
+    border-radius: 5px;
+  
+    button {
+      padding: 5px;
+      border: none;
+      cursor: pointer;
+      background: #fff;
+      border-radius: 3px;
+      &:hover {
+        background: #ddd;
+      }
+    }
+  }
+  
+  .editor {
+    border: 1px solid #ccc;
+    min-height: 200px;
+    max-height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: #fff;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  td {
+    border: 1px solid black;
+    padding: 5px;
+    min-width: 50px;
+  }
